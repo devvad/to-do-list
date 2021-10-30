@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./blocks/index.css">
+	<link rel="icon" href="https://faviconka.ru/ico/1/faviconka.ru_1_130131.ico" type="image">
+	<title>To Do List</title>
+</head>
+<body class="page">
+	<header class="header">
+		<h1 class="header__title">Список дел</h1>
+	</header>
+
+	<form class="form-add-to-do">
+		<input class="form-add-to-do__input" placeholder="Добавьте новое дело">
+		<button type="submit" class="form-add-to-do__submit">OK</button>
+	</form>
+
+	<ul class="todo-list">
+	</ul>
+
+	<footer class="footer">&copy; Вадим Черепанов</footer>
+
+	<template id="todo-item">
+		<li class="todo-item">
+			<div class="todo-item__name"></div>
+			<form>
+				<div class="todo-item__tick"></div>
+				<input class="todo-item__input">
+				<button class="todo-item__cancel">
+					<img src="./image/close-icon.svg">
+				</button>
+			</form>
+		</li>
+	</template>
+	<script src="./blocks/form-add-to-do/form-add-to-do.js"></script>
+	<script src="./blocks/todo-item/todo-item.js"></script>
+	<script src="./blocks/todo-list/todo-list.js"></script>
+	<script src="./blocks/index.js"></script>
+</body>
+</html>

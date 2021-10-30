@@ -1,0 +1,6 @@
+.form-add-to-do__input {
+	padding: 20px;
+	flex-grow: 1;
+	font-size: 30px;
+	font-weight: 500;
+}

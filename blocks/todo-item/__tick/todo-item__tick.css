@@ -1,0 +1,13 @@
+.todo-item__tick {
+	background-image: url(../../../image/checkmark-icon.png);
+	width: 80px;
+  height: 80px;
+  background-color: green;
+	border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+	outline: none;
+	margin-left: 20px;
+	margin-left: -100px;
+}

@@ -1,0 +1,10 @@
+.todo-item__cancel {
+  width: 80px;
+  height: 80px;
+  background-color: red;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+	outline: none;
+	margin-left: 20px;
+}
