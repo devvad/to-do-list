@@ -1,6 +1,8 @@
 # Todo List
 Учебный проект по созданию приложения "Todo List" на чистом JavaScript с использованием LocalStorage.
 
+https://devvad.github.io/to-do-list/
+
 ## Функциональность
 ![](todo_list_ui.jpg)
 
